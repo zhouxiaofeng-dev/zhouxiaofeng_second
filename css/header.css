@@ -1,0 +1,130 @@
+header {
+    position: fixed;
+    width: 1519px;
+    height: 61px;
+    border-bottom: 1px solid #f1f1f1;
+    background-color: #fff;
+}
+
+.head_main {
+    display: flex;
+    height: 61px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head_img {
+    width: 98px;
+    height: 38px;
+}
+
+.head_ul {
+    display: flex;
+    width: 838px;
+    height: 61px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head_search {
+    width: 168px;
+    height: 33px;
+    border: 1px solid #e6e6e7;
+    background-color: #fafafb;
+    outline: none;
+    text-indent: 10px;
+}
+
+.head_ul {
+    font-size: 16px;
+}
+
+.head_write {
+    width: 88px;
+    height: 33px;
+    background-color: #007fff;
+}
+
+.head_w_1 {
+    float: left;
+    width: 64px;
+    height: 33px;
+    background-color: #007fff;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+.head_w_1 a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.head_w_2 {
+    position: relative;
+    float: left;
+    width: 23px;
+    border-left: 1px solid #7b8fa3;
+    height: 33px;
+    background-color: #007fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.head_tri {
+    position: absolute;
+    top: 9px;
+    right: 6px;
+    width: 10px;
+    height: 10px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+}
+
+.head_feidian {
+    display: none;
+    position: absolute;
+    top: 33px;
+    right: -2px;
+    width: 90px;
+    height: 35px;
+    background-color: #fff;
+    border: 1px solid #e6e6e7;
+    text-align: center;
+    line-height: 35px;
+}
+
+.head_feidian a {
+    font-size: 16px;
+    color: #007fff;
+}
+
+.head_btn {
+    width: 70px;
+    height: 33px;
+    color: #007fff;
+    border: 1px solid #007fff;
+    background-color: #fff;
+    outline: none;
+}
+
+.head_srh {
+    position: absolute;
+    top: 16px;
+    right: 533px;
+    width: 34px;
+    height: 30px;
+}
+
+.head_srh_blue {
+    display: none;
+    position: absolute;
+    top: 16px;
+    right: 535px;
+    width: 34px;
+    height: 30px;
+}

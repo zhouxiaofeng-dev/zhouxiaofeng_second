@@ -1,0 +1,11 @@
+.page_1,
+.page_2 {
+    width: 1519px;
+    height: 800px;
+    /* background-color: pink; */
+}
+
+.page_2 {
+    display: none;
+    background-color: blue;
+}
